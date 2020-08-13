@@ -65,8 +65,8 @@ class Header extends Component {
         <div className="row banner">
           <div className="banner-text">
             <h1 className="responsive-headline">{name}</h1>
-            <h3>{description}.</h3>
-            <img style={{ maxWidth: "20%" }} src="/images/cake.svg" />
+            <h3 className="responsive-headline">{description}.</h3>
+            <img style={{ maxWidth: "20%" }} src="images/cake.svg" />
           </div>
         </div>
 
