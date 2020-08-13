@@ -3,11 +3,13 @@ import ParticlesBg from "particles-bg";
 
 class Header extends Component {
   render() {
+    var name = "Happy Birthday Doll";
+    var description =
+      "This is a random text to test the fonts and styles and color. might have to change it later";
     if (this.props.data) {
       var project = this.props.data.project;
       var github = this.props.data.github;
-      var name = this.props.data.name;
-      var description = this.props.data.description;
+
       var city = this.props.data.address.city;
       var networks = this.props.data.social.map(function (network) {
         return (
@@ -22,7 +24,7 @@ class Header extends Component {
 
     return (
       <header id="home">
-        <ParticlesBg type="polygon" num={15} bg={true} />
+        <ParticlesBg type="polygon" num={12} bg={true} />
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
             Show navigation
@@ -38,23 +40,23 @@ class Header extends Component {
               </a>
             </li>
             <li>
-              <a className="smoothscroll" href="#about">
-                About
+              <a className="smoothscroll" href="#wish">
+                Wish
               </a>
             </li>
             <li>
-              <a className="smoothscroll" href="#resume">
-                Resume
+              <a className="smoothscroll" href="#story">
+                Story
               </a>
             </li>
             <li>
-              <a className="smoothscroll" href="#portfolio">
-                Works
+              <a className="smoothscroll" href="#gallery">
+                Gallery
               </a>
             </li>
             <li>
-              <a className="smoothscroll" href="#contact">
-                Contact
+              <a className="smoothscroll" href="#gift">
+                Gift
               </a>
             </li>
           </ul>
@@ -64,15 +66,7 @@ class Header extends Component {
           <div className="banner-text">
             <h1 className="responsive-headline">{name}</h1>
             <h3>{description}.</h3>
-            <hr />
-            <ul className="social">
-              <a href={project} className="button btn project-btn">
-                <i className="fa fa-book"></i>Project
-              </a>
-              <a href={github} className="button btn github-btn">
-                <i className="fa fa-github"></i>Github
-              </a>
-            </ul>
+            <img style={{ maxWidth: "20%" }} src="/images/cake.svg" />
           </div>
         </div>
 
