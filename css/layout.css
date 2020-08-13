@@ -4,7 +4,7 @@
    TOC:
    a. General Styles
    b. Header Styles
-   c. About Section
+   c. Wish Section
    d. Resume Section
    e. Portfolio Section
    f. Call To Action Section
@@ -48,7 +48,7 @@ header .banner {
   vertical-align: middle;
   margin: 0 auto;
   width: 85%;
-  padding-bottom: 30px;
+  padding-top: 20px;
   text-align: center;
 }
 
@@ -62,20 +62,15 @@ header .banner-text h1 {
   margin: 0 auto 18px auto;
 }
 header .banner-text h3 {
-  font: 18px/1.9em "librebaskerville-regular", serif;
-  color: #ddd;
+  font: 40px/1em "great_vibesregular", sans-serif;
+  color: #11abb0;
+  letter-spacing: 3px;
   margin: 0 auto;
   width: 70%;
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
-  color: #fff;
-}
-header .banner-text hr {
-  width: 60%;
-  margin: 18px auto 24px auto;
-  border-color: #2f2d2e;
-  border-color: rgba(150, 150, 150, 0.1);
+  color: #11abb0;
 }
 
 /* scrolldown link */
@@ -84,13 +79,12 @@ header .scrolldown a {
   bottom: 30px;
   left: 50%;
   margin-left: -29px;
-  color: #fff;
+  color: #11abb0;
   display: block;
   height: 42px;
   width: 42px;
   font-size: 42px;
   line-height: 42px;
-  color: #fff;
   border-radius: 100%;
 
   -webkit-transition: all 0.3s ease-in-out;
@@ -99,7 +93,7 @@ header .scrolldown a {
   transition: all 0.3s ease-in-out;
 }
 header .scrolldown a:hover {
-  color: #0762f9;
+  color: #e77077;
 }
 
 /* primary navigation
@@ -174,4 +168,62 @@ ul#nav li a:hover {
 }
 ul#nav li.current a {
   color: #e77077;
+}
+
+/* ------------------------------------------------------------------ */
+/* c. Wish Section
+/* ------------------------------------------------------------------ */
+
+#wish {
+  background: #11abb0;
+  padding-top: 96px;
+  padding-bottom: 66px;
+  overflow: hidden;
+}
+
+#wish a,
+#wish a:visited {
+  color: #fff;
+}
+#wish a:hover,
+#wish a:focus {
+  color: #fff;
+}
+
+#wish h2 {
+  font: 22px/30px "opensans-bold", sans-serif;
+  color: #fff;
+  margin-bottom: 12px;
+}
+#wish p {
+  line-height: 30px;
+  color: #ccc;
+}
+#wish .profile-pic {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+}
+#wish .contact-details {
+  width: 41.66667%;
+}
+#wish .download {
+  width: 58.33333%;
+  padding-top: 6px;
+}
+#wish .main-col {
+  padding-right: 5%;
+}
+#wish .download .button {
+  margin-top: 6px;
+  background: #444;
+}
+#wish .download .button:hover {
+  background: #fff;
+  color: #2b2b2b;
+}
+#wish .download .button i {
+  margin-right: 15px;
+  font-size: 20px;
 }
