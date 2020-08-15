@@ -175,9 +175,6 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #wish {
-  background: #11abb0;
-  padding-top: 96px;
-  padding-bottom: 66px;
   overflow: hidden;
 }
 
@@ -191,13 +188,43 @@ ul#nav li.current a {
 }
 
 #wish h2 {
-  font: 22px/30px "opensans-bold", sans-serif;
-  color: #fff;
+  font: 58px "great_vibesregular";
+  color: #b5173a;
   margin-bottom: 12px;
 }
 #wish p {
+  font: 18px/1em "opensans-bold", sans-serif;
   line-height: 30px;
   color: #ccc;
+}
+#wish img {
+  max-width: unset;
+}
+#wish .wordwish {
+  background: #1789b5;
+  padding: 96px 40px 66px;
+  display: flex;
+}
+#wish .banner {
+  background: #000524;
+  padding-top: 66px;
+  padding-bottom: 66px;
+  padding: 60px 40px;
+  display: flex;
+}
+
+#wish .banner-photo {
+  width: 50%;
+  position: relative;
+}
+#wish .wish-photo {
+  width: 50%;
+}
+#wish .wish-text {
+  width: 50%;
+}
+#wish .banner-wish {
+  width: 50%;
 }
 #wish .profile-pic {
   position: relative;
@@ -208,22 +235,7 @@ ul#nav li.current a {
 #wish .contact-details {
   width: 41.66667%;
 }
-#wish .download {
-  width: 58.33333%;
-  padding-top: 6px;
-}
 #wish .main-col {
+  padding-left: 5%;
   padding-right: 5%;
-}
-#wish .download .button {
-  margin-top: 6px;
-  background: #444;
-}
-#wish .download .button:hover {
-  background: #fff;
-  color: #2b2b2b;
-}
-#wish .download .button i {
-  margin-right: 15px;
-  font-size: 20px;
 }
