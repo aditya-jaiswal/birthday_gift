@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c6c4420a276bd9aa24d8d49669bf1125",
+    "revision": "7068c249fec1bd8b6daafc032c6448db",
     "url": "/birthday_gift/index.html"
   },
   {
-    "revision": "8ded32a3e41434b975f4",
+    "revision": "805d4122438854e71d69",
     "url": "/birthday_gift/static/css/2.0ceadc57.chunk.css"
   },
   {
-    "revision": "360a4a2c7caa104f4e90",
+    "revision": "e00b4b7485abfc9ba692",
     "url": "/birthday_gift/static/css/main.5f361e03.chunk.css"
   },
   {
-    "revision": "8ded32a3e41434b975f4",
-    "url": "/birthday_gift/static/js/2.f89b2c94.chunk.js"
+    "revision": "805d4122438854e71d69",
+    "url": "/birthday_gift/static/js/2.703776a7.chunk.js"
   },
   {
     "revision": "92ba8acd1e9fee970a07db04009ca21d",
-    "url": "/birthday_gift/static/js/2.f89b2c94.chunk.js.LICENSE.txt"
+    "url": "/birthday_gift/static/js/2.703776a7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "360a4a2c7caa104f4e90",
-    "url": "/birthday_gift/static/js/main.461d0400.chunk.js"
+    "revision": "e00b4b7485abfc9ba692",
+    "url": "/birthday_gift/static/js/main.ba9abb10.chunk.js"
   },
   {
     "revision": "db96665e2bd69342b7d9",
