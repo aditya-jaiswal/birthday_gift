@@ -196,6 +196,7 @@ ul#nav li.current a {
   font: 18px/1em "opensans-bold", sans-serif;
   line-height: 30px;
   color: #ccc;
+  text-align: justify;
 }
 #wish img {
   max-width: unset;
