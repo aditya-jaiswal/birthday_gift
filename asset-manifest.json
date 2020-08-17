@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/birthday_gift/static/css/main.5f361e03.chunk.css",
-    "main.js": "/birthday_gift/static/js/main.47f9f6e4.chunk.js",
-    "main.js.map": "/birthday_gift/static/js/main.47f9f6e4.chunk.js.map",
+    "main.js": "/birthday_gift/static/js/main.d5ced36f.chunk.js",
+    "main.js.map": "/birthday_gift/static/js/main.d5ced36f.chunk.js.map",
     "runtime-main.js": "/birthday_gift/static/js/runtime-main.af4177ef.js",
     "runtime-main.js.map": "/birthday_gift/static/js/runtime-main.af4177ef.js.map",
     "static/css/2.0ceadc57.chunk.css": "/birthday_gift/static/css/2.0ceadc57.chunk.css",
     "static/js/2.3f6f8a1e.chunk.js": "/birthday_gift/static/js/2.3f6f8a1e.chunk.js",
     "static/js/2.3f6f8a1e.chunk.js.map": "/birthday_gift/static/js/2.3f6f8a1e.chunk.js.map",
     "index.html": "/birthday_gift/index.html",
-    "precache-manifest.35b4b81d5c5009c2db4708b3a32b2b9a.js": "/birthday_gift/precache-manifest.35b4b81d5c5009c2db4708b3a32b2b9a.js",
+    "precache-manifest.9bcdd92d739bc2f3d27795e854746c82.js": "/birthday_gift/precache-manifest.9bcdd92d739bc2f3d27795e854746c82.js",
     "service-worker.js": "/birthday_gift/service-worker.js",
     "static/css/2.0ceadc57.chunk.css.map": "/birthday_gift/static/css/2.0ceadc57.chunk.css.map",
     "static/css/main.5f361e03.chunk.css.map": "/birthday_gift/static/css/main.5f361e03.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.0ceadc57.chunk.css",
     "static/js/2.3f6f8a1e.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.47f9f6e4.chunk.js"
+    "static/js/main.d5ced36f.chunk.js"
   ]
 }

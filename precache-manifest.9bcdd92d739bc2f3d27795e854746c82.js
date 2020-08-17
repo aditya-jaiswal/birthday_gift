@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f6d003f98f50bc3b752351747de822fb",
+    "revision": "441f672bdf68d9d036a91c51825f2afc",
     "url": "/birthday_gift/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/birthday_gift/static/css/2.0ceadc57.chunk.css"
   },
   {
-    "revision": "14f0e9903218016d81b5",
+    "revision": "4b0a06da229b3ee5ce51",
     "url": "/birthday_gift/static/css/main.5f361e03.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/birthday_gift/static/js/2.3f6f8a1e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "14f0e9903218016d81b5",
-    "url": "/birthday_gift/static/js/main.47f9f6e4.chunk.js"
+    "revision": "4b0a06da229b3ee5ce51",
+    "url": "/birthday_gift/static/js/main.d5ced36f.chunk.js"
   },
   {
     "revision": "db96665e2bd69342b7d9",
