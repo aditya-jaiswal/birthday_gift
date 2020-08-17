@@ -24,9 +24,16 @@ class Wish extends Component {
             <h2>Happy birthday!</h2>
 
             <p>
-              {bio} hahahah again sample text to test. and i will be testing hpw
-              it looks when the test size become hhuge and needs to be
-              accomodated in more than a single line.{" "}
+              {bio} Wish you a very happy birthday Ayushi. You are the best
+              person that I have come across my life. Birthday is a very special
+              day of all of us because it reminds us of what we bring to this
+              world by our birth. I will tell you. You bring happiness,
+              prosperity, brightness to this World. You bring happiness,
+              brightness, love, humility, childhood, and companionship to me.
+              Thanks for coming into this World and thanks for coming into my
+              life. I wish you a year full of success and love. I wish that you
+              be the greatest gf of all time :P. I wish you a lot of happiness
+              and promise that I will be with you always.{" "}
             </p>
           </div>
           <div className="wish-photo column">
@@ -51,9 +58,14 @@ class Wish extends Component {
             <h2>Wordcloud</h2>
 
             <p>
-              {bio} hahahah again sample text to test. and i will be testing hpw
-              it looks when the test size become hhuge and needs to be
-              accomodated in more than a single line.{" "}
+              {bio} This Wordcloud comprises of words from our WhatsApp chat
+              history. Just like this Wordcloud we are also comprised of
+              different emotions that all come together to form the love that we
+              have for each other. There were around 3000 words which we used
+              regularly. I ranked these words/phrases based on their frequency
+              and then handpicked around 600 words/phrases and made this
+              Wordcloud. Let’s see if you can get the reference of all these
+              words. Download it and take up the challenge.{" "}
             </p>
             <div className="download">
               <p>

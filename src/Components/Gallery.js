@@ -74,7 +74,7 @@ class Gallery extends Component {
         description: "My doll, My princess",
       },
       {
-        original: "images/gallery/12.jpg",
+        original: "images/gallery/12.png",
         originalAlt: "12",
         thumbnail: "images/gallery/12.png",
         description: "My desi girl",
@@ -86,7 +86,7 @@ class Gallery extends Component {
         description: "My cute girl",
       },
       {
-        original: "images/gallery/14.jpg",
+        original: "images/gallery/14.jpeg",
         originalAlt: "14",
         thumbnail: "images/gallery/14.jpeg",
         description: "Tripping",
