@@ -5,9 +5,9 @@ import "./App.css";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import Wish from "./Components/Wish";
-import Resume from "./Components/Story";
-import Contact from "./Components/Gallery";
-import Portfolio from "./Components/Gift";
+import Story from "./Components/Story";
+import Gallery from "./Components/Gallery";
+import Gift from "./Components/Gift";
 
 class App extends Component {
   constructor(props) {
@@ -45,6 +45,10 @@ class App extends Component {
       <div className="App">
         <Header /> {/* data={this.state.resumeData.main}/> */}
         <Wish />
+        <Story />
+        <Gallery />
+        <Gift />
+        <Footer />
         {/* data={this.state.resumeData.main}/> 
         <Resume />
         {/* data={this.state.resumeData.resume}/> 

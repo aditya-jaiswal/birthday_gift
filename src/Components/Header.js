@@ -71,7 +71,7 @@ class Header extends Component {
         </div>
 
         <p className="scrolldown">
-          <a className="smoothscroll" href="#about">
+          <a className="smoothscroll" href="#wish">
             <i className="icon-down-circle"></i>
           </a>
         </p>
