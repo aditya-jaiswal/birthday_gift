@@ -352,6 +352,11 @@ input[type="button"]:hover {
   text-transform: uppercase;
 }
 
+#gift h4 {
+  text-transform: capitalize;
+  font: 15px "librebaskerville-regular", serif;
+}
+
 #gift .code {
   margin: 10px 0;
   border: 1px solid black;
@@ -440,6 +445,11 @@ input[type="button"]:hover {
   margin-top: 80px;
 }
 
+#gift .gifttext {
+  padding: 20px 0;
+  font: 17px "opensans_regular";
+}
+
 .backvoucherLeft:after {
   content: "";
   display: block;
@@ -453,11 +463,23 @@ input[type="button"]:hover {
   z-index: 1;
 }
 
+#gift ul {
+  list-style: circle inside;
+  text-align: left;
+  font: 10px "librebaskerville-regular", serif;
+}
+
+#gift li {
+  line-height: 12px;
+  margin-bottom: 5px;
+}
+
 #gift .backvoucherRight {
   width: 70%;
   background: #fff;
   position: relative;
   border-radius: 10px;
+  padding: 10px;
 }
 .backvoucherRight:before {
   content: "";
