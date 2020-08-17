@@ -256,7 +256,7 @@ class Story extends Component {
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              date={<p style={{ color: "#000", fontSize: "20px" }}>2003</p>}
+              date={<p style={{ color: "#000", fontSize: "20px" }}>Nov 2019</p>}
               iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
               //   icon={}
             >
