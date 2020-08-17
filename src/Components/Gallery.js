@@ -24,6 +24,8 @@ class Gallery extends Component {
     return (
       <section id="gallery">
         <div className=" media">
+          <h2>Photo Album</h2>
+          <h3>Memorable moment</h3>
           <ImageGallery
             items={this.images}
             autoPlay={true}

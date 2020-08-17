@@ -249,6 +249,12 @@ ul#nav li.current a {
   padding-top: 90px;
   overflow: hidden;
 }
+#story h2 {
+  font: 58px "great_vibesregular";
+  color: #fff;
+  margin-bottom: 24px;
+  text-transform: capitalize;
+}
 .storyline {
   margin-bottom: 28px;
   padding-bottom: 24px;
@@ -256,19 +262,23 @@ ul#nav li.current a {
 
 #story .counter {
   background: url("../images/counter-bg.jpg");
-  height: 250px;
+  height: 320px;
+  background-position: left top;
+  background-size: cover;
 }
 
-#years,
-#days,
-#minutes {
-  margin-top: 20px;
+#story .counter h2 {
+  padding-top: 15px;
+  font: 51px "great_vibesregular";
+  color: #dc4058;
+  margin-bottom: 0px;
+  text-transform: capitalize;
 }
 
 #months,
 #hours,
 #seconds {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 #story .container {
@@ -283,11 +293,32 @@ ul#nav li.current a {
 
 #gallery {
   background: #f5d2e5;
-  padding-top: 90px;
+  padding-top: 80px;
   padding-bottom: 68px;
   overflow: hidden;
-  height: 110vh;
 }
+
+#gallery h2 {
+  font: 50px "great_vibesregular";
+  color: #dc4058;
+  line-height: 35px;
+  text-transform: capitalize;
+}
+
+#gallery h3 {
+  font: 20px "opensans-regular";
+  color: #dc4058;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+#gallery button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover {
+  background: transparent;
+  color: #fff;
+}
+
 #gallery .media {
   padding: 0 40px;
 }
@@ -301,13 +332,19 @@ ul#nav li.current a {
 
 #gift {
   background: #e27f66;
-  padding-top: 90px;
+  padding-top: 80px;
   padding-bottom: 68px;
   overflow: hidden;
   color: black;
 }
+#gift h1 {
+  font: 51px "great_vibesregular";
+  text-transform: capitalize;
+  line-height: 40px;
+}
 #gift h2 {
   font: 32px "great_vibesregular";
+  text-transform: capitalize;
 }
 
 #gift h3 {

@@ -21,7 +21,7 @@ class Wish extends Component {
       <section id="wish">
         <div className="wordwish">
           <div className="wish-text column">
-            <h2>About Me</h2>
+            <h2>Happy birthday!</h2>
 
             <p>
               {bio} hahahah again sample text to test. and i will be testing hpw
@@ -48,7 +48,7 @@ class Wish extends Component {
             magnifierBorderColor={"rgba(255, 255, 255, .5)"}
           />
           <div className="banner-wish column main-col">
-            <h2>About Me</h2>
+            <h2>Wordcloud</h2>
 
             <p>
               {bio} hahahah again sample text to test. and i will be testing hpw

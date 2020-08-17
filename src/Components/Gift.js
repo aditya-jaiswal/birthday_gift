@@ -6,6 +6,7 @@ class Gift extends Component {
     return (
       <section id="gift">
         <div className="row">
+          <h1>Gifts Vouchers</h1>
           <div className="gridcontainer">
             <div className="gridItem">
               <Flippy

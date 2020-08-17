@@ -47,6 +47,7 @@ class Story extends Component {
     return (
       <section id="story">
         <div className="row storyline">
+          <h2>Story of my life</h2>
           <VerticalTimeline>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
@@ -128,6 +129,7 @@ class Story extends Component {
           </VerticalTimeline>
         </div>
         <div className="counter">
+          <h2>Live long and prosper </h2>
           <div className="container">
             <div id="years">
               <img src="images/counter-love.png" />
